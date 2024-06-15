@@ -7,8 +7,11 @@ import org.godotengine.godot.Godot
 import org.godotengine.godot.plugin.GodotPlugin
 import org.godotengine.godot.plugin.UsedByGodot
 
-class GodotAndroidPlugin(godot: Godot): GodotPlugin(godot) {
+import ir.cafebazaar.poolakey.Payment
+import ir.cafebazaar.poolakey.config.SecurityCheck
+import ir.cafebazaar.poolakey.config.PaymentConfiguration
 
+class GodotAndroidPlugin(godot: Godot): GodotPlugin(godot) {
     override fun getPluginName() = BuildConfig.GODOT_PLUGIN_NAME
 
     /**

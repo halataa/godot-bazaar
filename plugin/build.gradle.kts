@@ -39,6 +39,7 @@ android {
 
 dependencies {
     implementation("org.godotengine:godot:4.2.0.stable")
+    implementation("com.github.cafebazaar.Poolakey:poolakey:2.2.0")
     // TODO: Additional dependencies should be added to export_plugin.gd as well.
 }
 
